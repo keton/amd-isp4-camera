@@ -35,3 +35,11 @@ This downloads the patches, compiles the module, installs it, and configures it 
 ```bash
 make clean && make && sudo make install
 ```
+
+## Use with DKMS
+
+```bash
+make patch && sudo dkms install .
+```
+
+This creates patched module source and installs it in DKMS system so kernel updates are automatically handled.
