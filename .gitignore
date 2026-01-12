@@ -1,0 +1,9 @@
+.patched
+*.c
+*.h
+*.o
+*.ko
+*.cmd
+*.symvers
+*.mod
+*.order
