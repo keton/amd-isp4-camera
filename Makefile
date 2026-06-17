@@ -1,9 +1,9 @@
 # AMD ISP4 Camera Driver
 KVER ?= $(shell uname -r)
 KDIR ?= /lib/modules/$(KVER)/build
-MSG_ID := 20260320084146.200988-1-Bin.Du@amd.com
+MSG_ID := 20260506093250.93460-1-Bin.Du@amd.com
 
-PATCHSET_VER := 10
+PATCHSET_VER := 11
 
 SRCS := isp4.c isp4_debug.c isp4_interface.c isp4_subdev.c isp4_video.c
 HDRS := isp4.h isp4_debug.h isp4_interface.h isp4_subdev.h isp4_video.h isp4_fw_cmd_resp.h isp4_hw_reg.h
